@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_96786d13fd294c5b803f7647a8020208 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_96786d13fd294c5b803f7647a8020208" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_96786d13fd294c5b803f7647a8020208 = L.map(
+                                  'map_96786d13fd294c5b803f7647a8020208',
+                                  {center: [43.67910515,-79.49118414007154],
+                                  zoom: 11,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_1637d104c49a4958bf6a4f7bc61c73b6 = L.tileLayer(
+                'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                {
+  "attribution": null,
+  "detectRetina": false,
+  "maxZoom": 18,
+  "minZoom": 1,
+  "noWrap": false,
+  "subdomains": "abc"
+}
+                ).addTo(map_96786d13fd294c5b803f7647a8020208);
+        
+    
+            var circle_marker_80e609b8d2da469d8eae3852393bfbff = L.circleMarker(
+                [43.6890256,-79.453512],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_96786d13fd294c5b803f7647a8020208);
+            
+    
+            var popup_c465f797402148ffb3af8dc0820ba60f = L.popup({maxWidth: '300'});
+
+            
+                var html_27a4cc38ed054800b5aad83d6396081c = $('<div id="html_27a4cc38ed054800b5aad83d6396081c" style="width: 100.0%; height: 100.0%;">Caledonia-Fairbanks Cluster 0.0</div>')[0];
+                popup_c465f797402148ffb3af8dc0820ba60f.setContent(html_27a4cc38ed054800b5aad83d6396081c);
+            
+
+            circle_marker_80e609b8d2da469d8eae3852393bfbff.bindPopup(popup_c465f797402148ffb3af8dc0820ba60f);
+
+            
+        
+    
+            var circle_marker_da0d28d95db94b2e9a63ee94299f0b5b = L.circleMarker(
+                [43.6911158,-79.47601329999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_96786d13fd294c5b803f7647a8020208);
+            
+    
+            var popup_89ce53fefc034a629388b36f604a5b83 = L.popup({maxWidth: '300'});
+
+            
+                var html_842638d7cee24361889ecda8bc2a3886 = $('<div id="html_842638d7cee24361889ecda8bc2a3886" style="width: 100.0%; height: 100.0%;">Del Ray, Mount Dennis, Keelsdale and Silverthorn Cluster 1.0</div>')[0];
+                popup_89ce53fefc034a629388b36f604a5b83.setContent(html_842638d7cee24361889ecda8bc2a3886);
+            
+
+            circle_marker_da0d28d95db94b2e9a63ee94299f0b5b.bindPopup(popup_89ce53fefc034a629388b36f604a5b83);
+
+            
+        
+    
+            var circle_marker_5c196e5dd115444fb2d653aea640b30c = L.circleMarker(
+                [43.6937813,-79.42819140000002],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_96786d13fd294c5b803f7647a8020208);
+            
+    
+            var popup_6461ae4cbe974022b2dbf5c637d6cd1a = L.popup({maxWidth: '300'});
+
+            
+                var html_8c1c408c11cf4fa18728b41d973a88bc = $('<div id="html_8c1c408c11cf4fa18728b41d973a88bc" style="width: 100.0%; height: 100.0%;">Humewood-Cedarvale Cluster 1.0</div>')[0];
+                popup_6461ae4cbe974022b2dbf5c637d6cd1a.setContent(html_8c1c408c11cf4fa18728b41d973a88bc);
+            
+
+            circle_marker_5c196e5dd115444fb2d653aea640b30c.bindPopup(popup_6461ae4cbe974022b2dbf5c637d6cd1a);
+
+            
+        
+    
+            var circle_marker_22f92cf619234a30b8a777bcfbd05f39 = L.circleMarker(
+                [43.67318529999999,-79.48726190000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_96786d13fd294c5b803f7647a8020208);
+            
+    
+            var popup_8df0e00333fd49c59c692ccf96ab1cf9 = L.popup({maxWidth: '300'});
+
+            
+                var html_0509cb0eef904661aac13341f1747b2e = $('<div id="html_0509cb0eef904661aac13341f1747b2e" style="width: 100.0%; height: 100.0%;">Runnymede, The Junction North Cluster 1.0</div>')[0];
+                popup_8df0e00333fd49c59c692ccf96ab1cf9.setContent(html_0509cb0eef904661aac13341f1747b2e);
+            
+
+            circle_marker_22f92cf619234a30b8a777bcfbd05f39.bindPopup(popup_8df0e00333fd49c59c692ccf96ab1cf9);
+
+            
+        
+</script>

@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_1b6b7bfbb0a042dab60786e091af03be {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_1b6b7bfbb0a042dab60786e091af03be" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_1b6b7bfbb0a042dab60786e091af03be = L.map(
+                                  'map_1b6b7bfbb0a042dab60786e091af03be',
+                                  {center: [43.67910515,-79.49118414007154],
+                                  zoom: 11,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_4293d94f261845b5b6850c50006b6480 = L.tileLayer(
+                'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                {
+  "attribution": null,
+  "detectRetina": false,
+  "maxZoom": 18,
+  "minZoom": 1,
+  "noWrap": false,
+  "subdomains": "abc"
+}
+                ).addTo(map_1b6b7bfbb0a042dab60786e091af03be);
+        
+    
+            var circle_marker_38586867363f4231baaf5f179c54ed6b = L.circleMarker(
+                [43.6890256,-79.453512],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_1b6b7bfbb0a042dab60786e091af03be);
+            
+    
+            var popup_27537d2f26f74911bcf31a18389a3774 = L.popup({maxWidth: '300'});
+
+            
+                var html_df59cc073c9a402c8c5d44002bd5ad44 = $('<div id="html_df59cc073c9a402c8c5d44002bd5ad44" style="width: 100.0%; height: 100.0%;">Caledonia-Fairbanks</div>')[0];
+                popup_27537d2f26f74911bcf31a18389a3774.setContent(html_df59cc073c9a402c8c5d44002bd5ad44);
+            
+
+            circle_marker_38586867363f4231baaf5f179c54ed6b.bindPopup(popup_27537d2f26f74911bcf31a18389a3774);
+
+            
+        
+    
+            var circle_marker_6bade58d1a2c486aba8080f03eeea59a = L.circleMarker(
+                [43.6911158,-79.47601329999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_1b6b7bfbb0a042dab60786e091af03be);
+            
+    
+            var popup_69b147c7f3624e0893f2872aa66f5e96 = L.popup({maxWidth: '300'});
+
+            
+                var html_672d67556bef43ef846a81cbc7b56f38 = $('<div id="html_672d67556bef43ef846a81cbc7b56f38" style="width: 100.0%; height: 100.0%;">Del Ray, Mount Dennis, Keelsdale and Silverthorn</div>')[0];
+                popup_69b147c7f3624e0893f2872aa66f5e96.setContent(html_672d67556bef43ef846a81cbc7b56f38);
+            
+
+            circle_marker_6bade58d1a2c486aba8080f03eeea59a.bindPopup(popup_69b147c7f3624e0893f2872aa66f5e96);
+
+            
+        
+    
+            var circle_marker_b5323e2a46c84fd1a3cae496aacf988e = L.circleMarker(
+                [43.6937813,-79.42819140000002],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_1b6b7bfbb0a042dab60786e091af03be);
+            
+    
+            var popup_63951d1a70fb4773af4ff2678bb6c4bc = L.popup({maxWidth: '300'});
+
+            
+                var html_2d9792c72725412a84ef2438cd40ba4f = $('<div id="html_2d9792c72725412a84ef2438cd40ba4f" style="width: 100.0%; height: 100.0%;">Humewood-Cedarvale</div>')[0];
+                popup_63951d1a70fb4773af4ff2678bb6c4bc.setContent(html_2d9792c72725412a84ef2438cd40ba4f);
+            
+
+            circle_marker_b5323e2a46c84fd1a3cae496aacf988e.bindPopup(popup_63951d1a70fb4773af4ff2678bb6c4bc);
+
+            
+        
+    
+            var circle_marker_809ee934d73a433ca9b040173d5846c6 = L.circleMarker(
+                [43.67318529999999,-79.48726190000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_1b6b7bfbb0a042dab60786e091af03be);
+            
+    
+            var popup_cf5a07b4c9f54410840e77b6f3be781f = L.popup({maxWidth: '300'});
+
+            
+                var html_8a9ef2d951844c7990258ffee294e711 = $('<div id="html_8a9ef2d951844c7990258ffee294e711" style="width: 100.0%; height: 100.0%;">Runnymede, The Junction North</div>')[0];
+                popup_cf5a07b4c9f54410840e77b6f3be781f.setContent(html_8a9ef2d951844c7990258ffee294e711);
+            
+
+            circle_marker_809ee934d73a433ca9b040173d5846c6.bindPopup(popup_cf5a07b4c9f54410840e77b6f3be781f);
+
+            
+        
+    
+            var circle_marker_f806660f250a47b9a537adfbd2dad8d3 = L.circleMarker(
+                [43.706876,-79.51818840000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_1b6b7bfbb0a042dab60786e091af03be);
+            
+    
+            var popup_18411cffbadb40cfaab45d94083f7d1d = L.popup({maxWidth: '300'});
+
+            
+                var html_e8e23adcd8764196bed30a259aa1beb4 = $('<div id="html_e8e23adcd8764196bed30a259aa1beb4" style="width: 100.0%; height: 100.0%;">Weston</div>')[0];
+                popup_18411cffbadb40cfaab45d94083f7d1d.setContent(html_e8e23adcd8764196bed30a259aa1beb4);
+            
+
+            circle_marker_f806660f250a47b9a537adfbd2dad8d3.bindPopup(popup_18411cffbadb40cfaab45d94083f7d1d);
+
+            
+        
+</script>

@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_bccf8c8f62cf4129adc8e5bafed0efef {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_bccf8c8f62cf4129adc8e5bafed0efef" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_bccf8c8f62cf4129adc8e5bafed0efef = L.map(
+                                  'map_bccf8c8f62cf4129adc8e5bafed0efef',
+                                  {center: [43.718337445,-79.397514205],
+                                  zoom: 10,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_a7d733640c584d4b851907f3d071a2dc = L.tileLayer(
+                'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                {
+  "attribution": null,
+  "detectRetina": false,
+  "maxZoom": 18,
+  "minZoom": 1,
+  "noWrap": false,
+  "subdomains": "abc"
+}
+                ).addTo(map_bccf8c8f62cf4129adc8e5bafed0efef);
+        
+    
+
+            var marker_eec0b71ca0ca42a381898d56c33c1b9b = L.marker(
+                [43.7869473,-79.385975],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_bccf8c8f62cf4129adc8e5bafed0efef);
+            
+    
+            var popup_c8372edba6194b6ab4cf77513fab120a = L.popup({maxWidth: '300'});
+
+            
+                var html_c1be793638b54adbbc3691c1c62d17a5 = $('<div id="html_c1be793638b54adbbc3691c1c62d17a5" style="width: 100.0%; height: 100.0%;">Bayview Village</div>')[0];
+                popup_c8372edba6194b6ab4cf77513fab120a.setContent(html_c1be793638b54adbbc3691c1c62d17a5);
+            
+
+            marker_eec0b71ca0ca42a381898d56c33c1b9b.bindPopup(popup_c8372edba6194b6ab4cf77513fab120a);
+
+            
+        
+    
+
+            var marker_a5bc8fb3b7434042b873dc37237704f0 = L.marker(
+                [43.6408157,-79.38175229999999],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_bccf8c8f62cf4129adc8e5bafed0efef);
+            
+    
+            var popup_01d8aa3b474347d4a8bf8b39471d718e = L.popup({maxWidth: '300'});
+
+            
+                var html_35e7adebe6f84d1989961165872142ae = $('<div id="html_35e7adebe6f84d1989961165872142ae" style="width: 100.0%; height: 100.0%;">Harbourfront East, Union Station, Toronto Islands</div>')[0];
+                popup_01d8aa3b474347d4a8bf8b39471d718e.setContent(html_35e7adebe6f84d1989961165872142ae);
+            
+
+            marker_a5bc8fb3b7434042b873dc37237704f0.bindPopup(popup_01d8aa3b474347d4a8bf8b39471d718e);
+
+            
+        
+    
+
+            var marker_12d8961db91045dc9ba5386787b3b6a0 = L.marker(
+                [43.6514939,-79.3754179],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_bccf8c8f62cf4129adc8e5bafed0efef);
+            
+    
+            var popup_01e64186e61f4027b3ef524336137324 = L.popup({maxWidth: '300'});
+
+            
+                var html_210c4ffa1cc946e99df8ff2e80f45e58 = $('<div id="html_210c4ffa1cc946e99df8ff2e80f45e58" style="width: 100.0%; height: 100.0%;">St. James Town</div>')[0];
+                popup_01e64186e61f4027b3ef524336137324.setContent(html_210c4ffa1cc946e99df8ff2e80f45e58);
+            
+
+            marker_12d8961db91045dc9ba5386787b3b6a0.bindPopup(popup_01e64186e61f4027b3ef524336137324);
+
+            
+        
+    
+
+            var marker_c13cc96732c04db8b1b2fa4e8826c957 = L.marker(
+                [43.6969476,-79.41130720000001],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_bccf8c8f62cf4129adc8e5bafed0efef);
+            
+    
+            var popup_5028bfdb7e934aa5926a1611434c2ecf = L.popup({maxWidth: '300'});
+
+            
+                var html_ea7d113c69bb4b799cb41acb8bd9711d = $('<div id="html_ea7d113c69bb4b799cb41acb8bd9711d" style="width: 100.0%; height: 100.0%;">Forest Hill North & West</div>')[0];
+                popup_5028bfdb7e934aa5926a1611434c2ecf.setContent(html_ea7d113c69bb4b799cb41acb8bd9711d);
+            
+
+            marker_c13cc96732c04db8b1b2fa4e8826c957.bindPopup(popup_5028bfdb7e934aa5926a1611434c2ecf);
+
+            
+        
+    
+
+            var marker_7353d0d17b7548ea85b35dc004722562 = L.marker(
+                [43.7635726,-79.1887115],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_bccf8c8f62cf4129adc8e5bafed0efef);
+            
+    
+            var popup_4304229c6b144cac862957dd81004e00 = L.popup({maxWidth: '300'});
+
+            
+                var html_2694e22d2c04416f95621e54764295ce = $('<div id="html_2694e22d2c04416f95621e54764295ce" style="width: 100.0%; height: 100.0%;">Guildwood, Morningside, West Hill</div>')[0];
+                popup_4304229c6b144cac862957dd81004e00.setContent(html_2694e22d2c04416f95621e54764295ce);
+            
+
+            marker_7353d0d17b7548ea85b35dc004722562.bindPopup(popup_4304229c6b144cac862957dd81004e00);
+
+            
+        
+    
+
+            var marker_b17fb5a61e5443b7857360b9cb2c20c5 = L.marker(
+                [43.745905799999996,-79.352188],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_bccf8c8f62cf4129adc8e5bafed0efef);
+            
+    
+            var popup_7f7ff42146c64019988f91e35436e52e = L.popup({maxWidth: '300'});
+
+            
+                var html_2e59129df3544850bde9724d0c17f964 = $('<div id="html_2e59129df3544850bde9724d0c17f964" style="width: 100.0%; height: 100.0%;">Don Mills</div>')[0];
+                popup_7f7ff42146c64019988f91e35436e52e.setContent(html_2e59129df3544850bde9724d0c17f964);
+            
+
+            marker_b17fb5a61e5443b7857360b9cb2c20c5.bindPopup(popup_7f7ff42146c64019988f91e35436e52e);
+
+            
+        
+    
+
+            var marker_042cf4f8b2b84486b3248c84ecc0c817 = L.marker(
+                [43.806686299999996,-79.19435340000001],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_bccf8c8f62cf4129adc8e5bafed0efef);
+            
+    
+            var popup_718ed570be3f46498a66d9a66775aa16 = L.popup({maxWidth: '300'});
+
+            
+                var html_162c41c15eff4e9781c6788c4c139072 = $('<div id="html_162c41c15eff4e9781c6788c4c139072" style="width: 100.0%; height: 100.0%;">Malvern, Rouge</div>')[0];
+                popup_718ed570be3f46498a66d9a66775aa16.setContent(html_162c41c15eff4e9781c6788c4c139072);
+            
+
+            marker_042cf4f8b2b84486b3248c84ecc0c817.bindPopup(popup_718ed570be3f46498a66d9a66775aa16);
+
+            
+        
+    
+
+            var marker_95be6e7645f34ad887e3f7346c780439 = L.marker(
+                [43.6471768,-79.38157640000001],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_bccf8c8f62cf4129adc8e5bafed0efef);
+            
+    
+            var popup_53bc008d3d5540e0bc8294b6e159eff7 = L.popup({maxWidth: '300'});
+
+            
+                var html_08f42bb9bac7425a9a4f49bc72c12c2c = $('<div id="html_08f42bb9bac7425a9a4f49bc72c12c2c" style="width: 100.0%; height: 100.0%;">Toronto Dominion Centre, Design Exchange</div>')[0];
+                popup_53bc008d3d5540e0bc8294b6e159eff7.setContent(html_08f42bb9bac7425a9a4f49bc72c12c2c);
+            
+
+            marker_95be6e7645f34ad887e3f7346c780439.bindPopup(popup_53bc008d3d5540e0bc8294b6e159eff7);
+
+            
+        
+    
+
+            var marker_d81a85c362ae49908c1503ccdba420fb = L.marker(
+                [43.7827364,-79.4422593],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_bccf8c8f62cf4129adc8e5bafed0efef);
+            
+    
+            var popup_eca932a68f6a4edfac06b2d958a5bcf6 = L.popup({maxWidth: '300'});
+
+            
+                var html_658cc986048c4b4e8915f9322b0ea967 = $('<div id="html_658cc986048c4b4e8915f9322b0ea967" style="width: 100.0%; height: 100.0%;">Willowdale</div>')[0];
+                popup_eca932a68f6a4edfac06b2d958a5bcf6.setContent(html_658cc986048c4b4e8915f9322b0ea967);
+            
+
+            marker_d81a85c362ae49908c1503ccdba420fb.bindPopup(popup_eca932a68f6a4edfac06b2d958a5bcf6);
+
+            
+        
+    
+
+            var marker_8c67bb254558404893f19dafc905cff6 = L.marker(
+                [43.6678556,-79.53224240000002],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_bccf8c8f62cf4129adc8e5bafed0efef);
+            
+    
+            var popup_92a55ec5a59241779d42fbf84510de6f = L.popup({maxWidth: '300'});
+
+            
+                var html_04e581498f744ca5a8503ba649d33dbd = $('<div id="html_04e581498f744ca5a8503ba649d33dbd" style="width: 100.0%; height: 100.0%;">Islington Avenue</div>')[0];
+                popup_92a55ec5a59241779d42fbf84510de6f.setContent(html_04e581498f744ca5a8503ba649d33dbd);
+            
+
+            marker_8c67bb254558404893f19dafc905cff6.bindPopup(popup_92a55ec5a59241779d42fbf84510de6f);
+
+            
+        
+    
+
+            var marker_174812e78c9242c7a49fc0608298e9d3 = L.marker(
+                [43.752758299999996,-79.4000493],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_bccf8c8f62cf4129adc8e5bafed0efef);
+            
+    
+            var popup_3c442999b91d402eab309809ca4863a2 = L.popup({maxWidth: '300'});
+
+            
+                var html_cb0755ac8f59414a9be3d9860db729f0 = $('<div id="html_cb0755ac8f59414a9be3d9860db729f0" style="width: 100.0%; height: 100.0%;">York Mills West</div>')[0];
+                popup_3c442999b91d402eab309809ca4863a2.setContent(html_cb0755ac8f59414a9be3d9860db729f0);
+            
+
+            marker_174812e78c9242c7a49fc0608298e9d3.bindPopup(popup_3c442999b91d402eab309809ca4863a2);
+
+            
+        
+    
+
+            var marker_ac4fce8eb0764015a3a0e4cc084195ed = L.marker(
+                [43.706748299999994,-79.5940544],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_bccf8c8f62cf4129adc8e5bafed0efef);
+            
+    
+            var popup_a8d65bc0489a407c9505405f12b82d06 = L.popup({maxWidth: '300'});
+
+            
+                var html_42652b6737774235bb4ce7a7afb0d588 = $('<div id="html_42652b6737774235bb4ce7a7afb0d588" style="width: 100.0%; height: 100.0%;">Northwest</div>')[0];
+                popup_a8d65bc0489a407c9505405f12b82d06.setContent(html_42652b6737774235bb4ce7a7afb0d588);
+            
+
+            marker_ac4fce8eb0764015a3a0e4cc084195ed.bindPopup(popup_a8d65bc0489a407c9505405f12b82d06);
+
+            
+        
+    
+
+            var marker_7add3606096d439e87d5cb1fd5a2c280 = L.marker(
+                [43.7043244,-79.3887901],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_bccf8c8f62cf4129adc8e5bafed0efef);
+            
+    
+            var popup_85afc1361e954998bb64b79350376fa1 = L.popup({maxWidth: '300'});
+
+            
+                var html_fb9247ee973d4b05ba8d972ac54beeb3 = $('<div id="html_fb9247ee973d4b05ba8d972ac54beeb3" style="width: 100.0%; height: 100.0%;">Davisville</div>')[0];
+                popup_85afc1361e954998bb64b79350376fa1.setContent(html_fb9247ee973d4b05ba8d972ac54beeb3);
+            
+
+            marker_7add3606096d439e87d5cb1fd5a2c280.bindPopup(popup_85afc1361e954998bb64b79350376fa1);
+
+            
+        
+    
+
+            var marker_3acab2c3579649e2b69d1ff04873df2c = L.marker(
+                [43.8152522,-79.2845772],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_bccf8c8f62cf4129adc8e5bafed0efef);
+            
+    
+            var popup_e7d142f640e142aeab60d6c2a76c154f = L.popup({maxWidth: '300'});
+
+            
+                var html_6b469b1a3dbc4cce9148e3ae3aed063a = $('<div id="html_6b469b1a3dbc4cce9148e3ae3aed063a" style="width: 100.0%; height: 100.0%;">Milliken, Agincourt North, Steeles East, L'Amoreaux East</div>')[0];
+                popup_e7d142f640e142aeab60d6c2a76c154f.setContent(html_6b469b1a3dbc4cce9148e3ae3aed063a);
+            
+
+            marker_3acab2c3579649e2b69d1ff04873df2c.bindPopup(popup_e7d142f640e142aeab60d6c2a76c154f);
+
+            
+        
+    
+
+            var marker_abe2055fb4a04e06a3abd374157e18e7 = L.marker(
+                [43.6484292,-79.3822802],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_bccf8c8f62cf4129adc8e5bafed0efef);
+            
+    
+            var popup_adcbe676163848eb9403e0dae318c2e8 = L.popup({maxWidth: '300'});
+
+            
+                var html_c06067a0121c43bbacc4796ab7aebf89 = $('<div id="html_c06067a0121c43bbacc4796ab7aebf89" style="width: 100.0%; height: 100.0%;">First Canadian Place, Underground city</div>')[0];
+                popup_adcbe676163848eb9403e0dae318c2e8.setContent(html_c06067a0121c43bbacc4796ab7aebf89);
+            
+
+            marker_abe2055fb4a04e06a3abd374157e18e7.bindPopup(popup_adcbe676163848eb9403e0dae318c2e8);
+
+            
+        
+    
+
+            var marker_b2c2d1ab39b14037ae49f9ee40dbf2e2 = L.marker(
+                [43.6579524,-79.3873826],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_bccf8c8f62cf4129adc8e5bafed0efef);
+            
+    
+            var popup_6eb00cb7af7a4e428aff040f4da8f358 = L.popup({maxWidth: '300'});
+
+            
+                var html_769c2e916361455bb73ec81100721711 = $('<div id="html_769c2e916361455bb73ec81100721711" style="width: 100.0%; height: 100.0%;">Central Bay Street</div>')[0];
+                popup_6eb00cb7af7a4e428aff040f4da8f358.setContent(html_769c2e916361455bb73ec81100721711);
+            
+
+            marker_b2c2d1ab39b14037ae49f9ee40dbf2e2.bindPopup(popup_6eb00cb7af7a4e428aff040f4da8f358);
+
+            
+        
+    
+
+            var marker_2cf617400bf3466eac7bcd5a646d1b8f = L.marker(
+                [43.6889054,-79.55472440000001],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_bccf8c8f62cf4129adc8e5bafed0efef);
+            
+    
+            var popup_d0c2fb8cf94b4dd1aec416df1c29ce0d = L.popup({maxWidth: '300'});
+
+            
+                var html_2c1b0a773160449ab4d286108697c1ec = $('<div id="html_2c1b0a773160449ab4d286108697c1ec" style="width: 100.0%; height: 100.0%;">Kingsview Village, St. Phillips, Martin Grove Gardens, Richview Gardens</div>')[0];
+                popup_d0c2fb8cf94b4dd1aec416df1c29ce0d.setContent(html_2c1b0a773160449ab4d286108697c1ec);
+            
+
+            marker_2cf617400bf3466eac7bcd5a646d1b8f.bindPopup(popup_d0c2fb8cf94b4dd1aec416df1c29ce0d);
+
+            
+        
+    
+
+            var marker_46c444f3a8614a2187e6eb5e8c9f6b5b = L.marker(
+                [43.7616313,-79.52099940000001],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_bccf8c8f62cf4129adc8e5bafed0efef);
+            
+    
+            var popup_4ac405441f2142de828883d41ff4f697 = L.popup({maxWidth: '300'});
+
+            
+                var html_86e77a0b03724aedad6056d331930d61 = $('<div id="html_86e77a0b03724aedad6056d331930d61" style="width: 100.0%; height: 100.0%;">Downsview</div>')[0];
+                popup_4ac405441f2142de828883d41ff4f697.setContent(html_86e77a0b03724aedad6056d331930d61);
+            
+
+            marker_46c444f3a8614a2187e6eb5e8c9f6b5b.bindPopup(popup_4ac405441f2142de828883d41ff4f697);
+
+            
+        
+    
+
+            var marker_b90d73d17b734db891ea64f6538fc5de = L.marker(
+                [43.6368472,-79.42819140000002],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_bccf8c8f62cf4129adc8e5bafed0efef);
+            
+    
+            var popup_3ef9fcd7b7804943916931899c0797d0 = L.popup({maxWidth: '300'});
+
+            
+                var html_731beba9f8494ef889d230e51e41f74e = $('<div id="html_731beba9f8494ef889d230e51e41f74e" style="width: 100.0%; height: 100.0%;">Brockton, Parkdale Village, Exhibition Place</div>')[0];
+                popup_3ef9fcd7b7804943916931899c0797d0.setContent(html_731beba9f8494ef889d230e51e41f74e);
+            
+
+            marker_b90d73d17b734db891ea64f6538fc5de.bindPopup(popup_3ef9fcd7b7804943916931899c0797d0);
+
+            
+        
+    
+
+            var marker_c97c882633a44814b0ee9ca93e741293 = L.marker(
+                [43.8037622,-79.3634517],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_bccf8c8f62cf4129adc8e5bafed0efef);
+            
+    
+            var popup_9c66f9b19f0046e5b8e8475734ceb959 = L.popup({maxWidth: '300'});
+
+            
+                var html_1ff2219f3da441f28c47a1d66988ed38 = $('<div id="html_1ff2219f3da441f28c47a1d66988ed38" style="width: 100.0%; height: 100.0%;">Hillcrest Village</div>')[0];
+                popup_9c66f9b19f0046e5b8e8475734ceb959.setContent(html_1ff2219f3da441f28c47a1d66988ed38);
+            
+
+            marker_c97c882633a44814b0ee9ca93e741293.bindPopup(popup_9c66f9b19f0046e5b8e8475734ceb959);
+
+            
+        
+</script>

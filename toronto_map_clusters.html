@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_4fd6ba7909b3446597e5907808da6ccd {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_4fd6ba7909b3446597e5907808da6ccd" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_4fd6ba7909b3446597e5907808da6ccd = L.map(
+                                  'map_4fd6ba7909b3446597e5907808da6ccd',
+                                  {center: [43.67910515,-79.49118414007154],
+                                  zoom: 11,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_ec86662008984452abb5930f977f4bc9 = L.tileLayer(
+                'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                {
+  "attribution": null,
+  "detectRetina": false,
+  "maxZoom": 18,
+  "minZoom": 1,
+  "noWrap": false,
+  "subdomains": "abc"
+}
+                ).addTo(map_4fd6ba7909b3446597e5907808da6ccd);
+        
+    
+            var circle_marker_c5f854bd9b11448eb293c341062e74b5 = L.circleMarker(
+                [43.644770799999996,-79.3733064],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_4fd6ba7909b3446597e5907808da6ccd);
+            
+    
+            var popup_9b82bad54cc245d3aec19e7a147f0181 = L.popup({maxWidth: '300'});
+
+            
+                var html_c6185ea6c4dc4cf1ba56086f3e19e694 = $('<div id="html_c6185ea6c4dc4cf1ba56086f3e19e694" style="width: 100.0%; height: 100.0%;">Berczy Park Cluster 0.0</div>')[0];
+                popup_9b82bad54cc245d3aec19e7a147f0181.setContent(html_c6185ea6c4dc4cf1ba56086f3e19e694);
+            
+
+            circle_marker_c5f854bd9b11448eb293c341062e74b5.bindPopup(popup_9b82bad54cc245d3aec19e7a147f0181);
+
+            
+        
+    
+            var circle_marker_3eb528736502458c988cf1011eeb5e95 = L.circleMarker(
+                [43.6368472,-79.42819140000002],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_4fd6ba7909b3446597e5907808da6ccd);
+            
+    
+            var popup_11dd2c30a6e8442681fe7cda4d17a018 = L.popup({maxWidth: '300'});
+
+            
+                var html_a80025f0013f4266be483d0860830ab0 = $('<div id="html_a80025f0013f4266be483d0860830ab0" style="width: 100.0%; height: 100.0%;">Brockton, Parkdale Village, Exhibition Place Cluster 1.0</div>')[0];
+                popup_11dd2c30a6e8442681fe7cda4d17a018.setContent(html_a80025f0013f4266be483d0860830ab0);
+            
+
+            circle_marker_3eb528736502458c988cf1011eeb5e95.bindPopup(popup_11dd2c30a6e8442681fe7cda4d17a018);
+
+            
+        
+    
+            var circle_marker_68018a57c3f64a638c13d6f443a4985e = L.circleMarker(
+                [43.6627439,-79.321558],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_4fd6ba7909b3446597e5907808da6ccd);
+            
+    
+            var popup_093457d6d0384de28b80e0a2f6744b36 = L.popup({maxWidth: '300'});
+
+            
+                var html_744d0a6da5a24d5bb4478b673f107032 = $('<div id="html_744d0a6da5a24d5bb4478b673f107032" style="width: 100.0%; height: 100.0%;">Business reply mail Processing Centre Cluster 1.0</div>')[0];
+                popup_093457d6d0384de28b80e0a2f6744b36.setContent(html_744d0a6da5a24d5bb4478b673f107032);
+            
+
+            circle_marker_68018a57c3f64a638c13d6f443a4985e.bindPopup(popup_093457d6d0384de28b80e0a2f6744b36);
+
+            
+        
+    
+            var circle_marker_8c98e952398e45509c14a509147ad270 = L.circleMarker(
+                [43.6289467,-79.3944199],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_4fd6ba7909b3446597e5907808da6ccd);
+            
+    
+            var popup_9401a0f39f924677b9e00ffdaecd07c6 = L.popup({maxWidth: '300'});
+
+            
+                var html_2ad7055ad0da48ff9529a177f74da8dd = $('<div id="html_2ad7055ad0da48ff9529a177f74da8dd" style="width: 100.0%; height: 100.0%;">CN Tower, King and Spadina, Railway Lands, Harbourfront West, Bathurst Quay, South Niagara, Island airport Cluster 1.0</div>')[0];
+                popup_9401a0f39f924677b9e00ffdaecd07c6.setContent(html_2ad7055ad0da48ff9529a177f74da8dd);
+            
+
+            circle_marker_8c98e952398e45509c14a509147ad270.bindPopup(popup_9401a0f39f924677b9e00ffdaecd07c6);
+
+            
+        
+    
+            var circle_marker_54293883ad2a42129bac1dddae4b74bc = L.circleMarker(
+                [43.6579524,-79.3873826],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_4fd6ba7909b3446597e5907808da6ccd);
+            
+    
+            var popup_bcfddeb359ae44b7bae9f1600671cf9d = L.popup({maxWidth: '300'});
+
+            
+                var html_6f6382fd9645488db0036d53c6cd0f95 = $('<div id="html_6f6382fd9645488db0036d53c6cd0f95" style="width: 100.0%; height: 100.0%;">Central Bay Street Cluster 0.0</div>')[0];
+                popup_bcfddeb359ae44b7bae9f1600671cf9d.setContent(html_6f6382fd9645488db0036d53c6cd0f95);
+            
+
+            circle_marker_54293883ad2a42129bac1dddae4b74bc.bindPopup(popup_bcfddeb359ae44b7bae9f1600671cf9d);
+
+            
+        
+</script>
